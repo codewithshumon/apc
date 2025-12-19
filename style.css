@@ -1,0 +1,125 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #242424;
+    color: white;
+    line-height: 1.6;
+}
+
+.container { width: 100%; max-width: 1920px; margin: 0 auto; padding: 20px; }
+
+.header {
+    text-align: center;
+    background: black;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 4em;
+    color: #c10000;
+}
+
+.header .subtitle {
+    font-size: 1.7em;
+    color: white;
+}
+
+.video-container {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 15px;
+    text-align: center; 
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 1120px;
+    aspect-ratio: 16 / 9;
+    height: 100%; 
+    border-radius: 8px;
+    
+}
+
+/* Main Content */
+.main-content {
+    text-align: center;
+    padding: 0 20px 50px;
+}
+
+.main-content h2 {
+    color: #c10000;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.intro-text {
+    font-size: 1.3em;
+    margin: 0 auto 35px;
+    max-width: 1000px;
+}
+
+.benefits-box {
+    background: black;
+    padding: 50px 80px;
+    margin: 35px auto;
+    max-width: 750px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.benefits-box h3 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.benefits-box ul { list-style: none; }
+.benefits-box li {
+    color: white;
+    padding: 12px 0 12px 0;
+    font-size: 1.3em;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.checkmark {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 15px;
+    line-height: 1;
+    margin-top: -1px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #c10000;
+    color: black;
+    padding: 20px 60px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.cta-button:hover { background: black; color: red; }
+
+.warning-text { font-size: 1.3em; font-style: italic; margin: 35px 0 20px; }
+.final-text { font-size: 1.3em; font-weight: 600; }
+
+
+@media (max-width: 768px) {
+    .header h1 { font-size: 2.5em; }
+    .header .subtitle { font-size: 1.2em; }
+    .main-content h2 { font-size: 2.5em; }
+    .intro-text { font-size: 1.1em; max-width: 90%; }
+    .benefits-box { padding: 20px; }
+    .benefits-box li { font-size: 1.1em; }
+    .checkmark { font-size: 1.5em; margin-right: 10px; }
+    .cta-button { padding: 15px 40px; font-size: 1.2em; }
+}

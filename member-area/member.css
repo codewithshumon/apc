@@ -1,0 +1,121 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #242424;
+    color: white;
+    line-height: 1.6;
+}
+
+.container { width: 100%; max-width: 1920px; margin: 0 auto; padding: 20px; }
+
+.header {
+    text-align: center;
+    background: black;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 4em;
+    color: #c10000;
+}
+
+
+.header .subtitle {
+    font-size: 1.5em;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.netcorobo {
+    text-align: center;
+    background: black;
+    padding-bottom: 10px;
+}
+
+.netcorobo h2 {
+    font-size: 4em;
+    color: #c10000;
+}
+
+.netcorobo h3 {
+    font-size: 1.5em;
+    color: #c10000;
+}
+
+.netcorobo .subtitle {
+    font-size: 1.5em;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.video-container {
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 1120px;
+    aspect-ratio: 16 / 9;
+    height: 100%; 
+    border-radius: 8px;
+    
+}
+
+
+
+.main-content {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.main-content h2 {
+    color: #c10000;
+    font-size: 4em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.intro-text {
+    font-size: 1.3em;
+    margin: 0 auto 35px;
+    max-width: 900px;
+}
+
+
+.margin-top-small {
+    margin-top: 30px;
+}
+
+.margin-top-big {
+    margin-top: 50px;
+}
+
+
+.text-italic {
+    font-style: italic;
+}
+
+.padding-up-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .header h1 { font-size: 2.5em; }
+    .header .subtitle { font-size: 1.2em; }
+    .main-content h2 { font-size: 2.5em; }
+    .intro-text { font-size: 1.1em; max-width: 90%; }
+    .benefits-box { padding: 20px; }
+    .benefits-box li { font-size: 1.1em; }
+    .checkmark { font-size: 1.5em; margin-right: 10px; }
+    .cta-button { padding: 15px 40px; font-size: 1.2em; }
+}
